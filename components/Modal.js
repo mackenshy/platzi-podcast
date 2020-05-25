@@ -1,12 +1,12 @@
-import Router from 'next/router'
-
-const Modal = ({ children }) => (
+const Modal = ({ children, onClose }) => (
 	<div className="modal">
-		<nav>
-			<a href="#back" className="close" onClick={() => Router.back()}>
-				&lt; Volver
-			</a>
-		</nav>
+		{onClose && (
+			<nav>
+				<a className="close" onClick={(e) => onClose(e)}>
+					&lt; Volver
+				</a>
+			</nav>
+		)}
 
 		{children}
 
