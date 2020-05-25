@@ -4,6 +4,8 @@ App de Podcasts integrada con la API de AudioBoom para aprender Next.JS
 
 ![Captura del App](./.readme-static/Podcast.png)
 
+[Ver la aplicación](https://platzi-podcast-bgez99ptd.now.sh/)
+
 ## ¿Cómo funciona?
 
 Requiere Node.JS
