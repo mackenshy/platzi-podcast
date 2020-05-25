@@ -1,7 +1,7 @@
 const AboutMe = () => (
 	<div className="about-me">
 		<h1>Jaime González</h1>
-		<img src="/foto.jpg" alt="About me" />
+		<img src="/static/foto.jpg" alt="About me" />
 		<h3>Fullstack Developer</h3>
 		<p>
 			Follow me{' '}

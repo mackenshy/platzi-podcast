@@ -4,7 +4,7 @@ const Header = () => (
 	<header>
 		<Link href="/">
 			<a>
-				<img src="/platzi-logo.png" alt="Logo" />
+				<img src="/static/platzi-logo.png" alt="Logo" />
 				<span>Podcast</span>
 			</a>
 		</Link>
